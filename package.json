@@ -59,14 +59,20 @@
     ]
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
     "electron-is-dev": "^2.0.0",
     "electron-updater": "^4.3.9",
     "eslint-plugin-react-hooks": "^4.2.0",
     "filesize": "^7.0.0",
     "log4js": "^6.3.0",
+    "mongodb": "^4.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.32.12"
+    "react-icons": "^4.3.1",
+    "sass": "^1.32.12",
+    "use-prompt": "^1.1.0"
   },
   "devDependencies": {
     "@rescripts/cli": "0.0.15",

@@ -5,6 +5,10 @@ import './index.scss'
 
 import { App } from './ui/app'
 import { Splash } from './ui/splash'
+import {criaCollectionTarefas} from './database/mongo'
+
+criaCollectionTarefas()
+
 
 /**
  * Defines which view will be rendered in the root node.
