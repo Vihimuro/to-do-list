@@ -19,9 +19,9 @@ export const ListaTarefas = ({lista, handleStatus, handleDeleta, handleAltera}: 
               <td> 
                 <input type="checkbox" checked={tarefa[1].status} onChange={(event) => {handleStatus(tarefa[1]._id, event.target.checked)}}></input>
               </td>
-              <td className = {((tarefa[1].status === true) ? `isConluida` : `null`)}> {tarefa[1].nome}</td>
+              <td className = {((tarefa[1].status === true) ? `isConcluida` : `null`)}> {tarefa[1].nome}</td>
               <td>
-                <IoPencilOutline onClick={() => handleAltera(tarefa[1]._id)}></IoPencilOutline>
+                <IoPencilOutline onClick={() => handleAltera(tarefa[1]._id, tarefa[1].nome)}></IoPencilOutline>
               </td>
               <td>
                 <IoTrashBin onClick={() => handleDeleta(tarefa[1]._id)}></IoTrashBin>
