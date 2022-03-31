@@ -38,16 +38,17 @@ yarn package
 
 ## Imports utilizados no app após clonar o template:
 
-[mui/material](https://www.npmjs.com/package/@mui/material)
-[react-icons](https://www.npmjs.com/package/react-icons)
-[mongodb](https://www.npmjs.com/package/mongodb)
-[smalltalk](https://www.npmjs.com/package/smalltalk)
+[react-icons](https://www.npmjs.com/package/react-icons) : Ícones de deletar e alterar.
+
+[mongodb](https://www.npmjs.com/package/mongodb) : Banco de dados.
+
+[smalltalk](https://www.npmjs.com/package/smalltalk) : Uso de prompt em alterar. 
 
 Obs: caso clone este repositório, não é necessária a importação dos mesmos.
 
 ## Versões
 
-1.1.0   Implementação do Mongo, tela, conexão front-back e CRUD
+1.1.0  - Implementação do Mongo, tela, conexão front-back e CRUD
         
         Tela criada, criação e conexão com o banco realizadas. 
 
@@ -56,7 +57,7 @@ Obs: caso clone este repositório, não é necessária a importação dos mesmos
         Alterar não funcional - espera-se ser corrigido na próxima versão.
 
 
-1.1.1   Correção de funcionalidade e nova feature
+1.1.1 -  Correção de funcionalidade e nova feature
 
         Alterar agora é funcional. 
 
@@ -67,7 +68,7 @@ Obs: caso clone este repositório, não é necessária a importação dos mesmos
         Remoção de use-prompt.
 
 
-1.1.2  Micro-patch
+1.1.2 - Micro-patch
 
         Remoção de mui/material.
 
